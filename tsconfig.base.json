@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "paths": {
+            "@ragaura/core/*": [
+                "packages/core/src/index.ts",
+                "packages/core/src/*"
+            ],
+            "@ragaura/dto": [
+                "packages/dto/src/index.ts",
+                "packages/dto/src/*"
+            ],
+            "@ragaura/cli": [
+                "packages/llm/src/index.ts",
+                "packages/llm/src/*"
+            ],
+            "@ragaura/retriever": [
+                "packages/retriever/src/index.ts",
+                "packages/retriever/src/*"
+            ],
+            "@ragaura/schema": [
+                "packages/schema/src/index.ts",
+                "packages/schema/src/*"
+            ],
+            "@ragaura/utils": [
+                "packages/utils/src/index.ts",
+                "packages/utils/src/*"
+            ]
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {
+        "cache": true,
+        "outputLogs": "full"
+    },
+    "dev": {
+        "cache": false,
+        "outputLogs": "full"
+    }
+  }
+}
