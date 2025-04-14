@@ -27,6 +27,10 @@
             "@ragaura/utils": [
                 "packages/utils/src/index.ts",
                 "packages/utils/src/*"
+            ],
+            "@ragaura/swagger": [
+                "packages/swagger/src/index.ts",
+                "packages/swagger/src/*"
             ]
         }
     }
