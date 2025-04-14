@@ -12,7 +12,7 @@
                 "packages/dto/src/index.ts",
                 "packages/dto/src/*"
             ],
-            "@ragaura/cli": [
+            "@ragaura/llm": [
                 "packages/llm/src/index.ts",
                 "packages/llm/src/*"
             ],
